@@ -2,6 +2,7 @@ import axios from 'axios';
 
 
 export const FETCH_POSTS = 'FETCH_POSTS';
+export const CREATE_POST = 'CREATE_POST';
 
 const ROOT_URL = 'https://cors-anywhere.herokuapp.com/https://api-laughbox.herokuapp.com'
 
@@ -12,4 +13,13 @@ export function fetchPosts() {
 		type: FETCH_POSTS,
 		payload: request
 	};
+}
+
+export function createPost(props) {
+	const request = axios.post(`${ROOT_URL}/posts`, props);
+
+	return {
+		type: CREATE_POST,
+		payload: request
+	}
 }
