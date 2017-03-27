@@ -11,13 +11,17 @@ class PostsShow extends Component {
 
 	componentWillMount() {
 		this.props.fetchPost(this.props.params.id);
+		console.log(this.props.params.id, 'aaaaaaaaaaaaaaaaaaaaaaaaa');
 
 	}
 
 
 	onDeleteClick() {
-		this.props.deletePost(this.props.params.id)
-		.then(() => {this.context.router.push('/'); });
+		if (confirm('Are you sure you want to delete this joke?')) {
+			this.props.deletePost(this.props.params.id)
+			.then(() => {this.context.router.push('/'); });
+		}
+		
 	}
 
 
