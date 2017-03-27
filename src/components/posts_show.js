@@ -42,11 +42,9 @@ class PostsShow extends Component {
 					onClick={this.onDeleteClick.bind(this)}>
 					delete joke
 				</button>
-				<button className="btn btn-primary">
-					<Link to={"/posts/" + this.props.params.id + "/update"}>
+				<Link className="update-button" to={"/posts/" + this.props.params.id + "/update"}>
 					update joke
-					</Link>
-				</button>
+				</Link>
 			</div>
 		);
 	}
@@ -58,3 +56,8 @@ function mapStateToProps(state) {
 }
 
 export default connect(mapStateToProps, {fetchPost, deletePost})(PostsShow);
+
+
+//<Link to={"/posts/" + this.props.params.id + "/update"}>
+//	update joke
+//</Link>
