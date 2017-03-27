@@ -29,6 +29,7 @@ export function createPost(props) {
 
 export function fetchPost(id) {
 	const request = axios.get(`${ROOT_URL}/posts/${id}`)
+	console.log(request, 'this is a fetch post request');
 
 	return {
 		type: FETCH_POST,
@@ -48,6 +49,7 @@ export function updatePost(id, props){
 
 export function deletePost(id) {
 	const request = axios.delete(`${ROOT_URL}/posts/${id}`);
+	console.log(request, 'this is a delete post request');
 
 	return {
 		type: DELETE_POST,
