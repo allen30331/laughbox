@@ -11,7 +11,7 @@ class PostsShow extends Component {
 
 	componentWillMount() {
 		this.props.fetchPost(this.props.params.id);
-		console.log(this.props.params.id, 'aaaaaaaaaaaaaaaaaaaaaaaaa');
+		console.log(this.props.params.id, 'showing the post');
 
 	}
 

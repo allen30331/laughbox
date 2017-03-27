@@ -7,7 +7,8 @@ export const FETCH_POST = 'FETCH_POST';
 export const DELETE_POST = 'DELETE_POST';
 export const UPDATE_POST = 'UPDATE_POST';
 
-const ROOT_URL = 'https://cors-anywhere.herokuapp.com/https://api-laughbox.herokuapp.com'
+const ROOT_URL = 'https://api-laughbox.herokuapp.com'
+//https://cors-anywhere.herokuapp.com/
 
 export function fetchPosts() {
 	const request = axios.get(`${ROOT_URL}/posts`);	 
