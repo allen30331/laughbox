@@ -33,7 +33,7 @@ class PostsIndex extends Component {
 						add a joke
 					</Link>
 				</div>
-					<h3>Posts</h3>
+					<h3>Jokes</h3>
 					<ul className="list-group">
 						{this.renderPosts()}	
 					</ul>
