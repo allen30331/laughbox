@@ -20,10 +20,10 @@ class PostsShow extends Component {
 	}
 
 
+	
 
 	render() {
 		const {post} = this.props
-
 		//ajax spinner that retruns empty div while
 		//network request is completed
 		if (!this.props.post) {
@@ -40,6 +40,11 @@ class PostsShow extends Component {
 					className="btn btn-danger"
 					onClick={this.onDeleteClick.bind(this)}>
 					delete joke
+				</button>
+				<button className="btn btn-primary">
+					<Link to={"posts/" + this.props.params.id + "/update"}>
+					update joke
+					</Link>
 				</button>
 			</div>
 		);
