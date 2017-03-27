@@ -3,15 +3,34 @@ import {connect} from 'react-redux';
 import {fetchPost} from '../actions/index';
 
 class PostsShow extends Component {
-	
+
+
 	componentWillMount() {
 		this.props.fetchPost(this.props.params.id);
 	}
 
 	render() {
-		return <div>Show post {this.props.params.id}</div>;
+		const {post} = this.props
+
+		//ajax spinner that retruns empty div while
+		//network request is completed
+		if (!this.props.post) {
+			return <div></div>
+		}
+		
+		return (
+			<div>
+				<h3>{post.title}</h3>
+				<h6>Categories: {post.categories}</h6>
+				<p>{post.content}</p>
+			</div>
+		);
 	}
 }
 
 
-export default connect(null, {fetchPost})(PostsShow);
+function mapStateToProps(state) {
+	return {post: state.posts.post};
+}
+
+export default connect(mapStateToProps, {fetchPost})(PostsShow);
