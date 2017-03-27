@@ -11,7 +11,7 @@ class PostsShow extends Component {
 
 	componentWillMount() {
 		this.props.fetchPost(this.props.params.id);
-		
+
 	}
 
 
@@ -43,7 +43,7 @@ class PostsShow extends Component {
 					delete joke
 				</button>
 				<button className="btn btn-primary">
-					<Link to={"posts/" + this.props.params.id + "/update"}>
+					<Link to={"/posts/" + this.props.params.id + "/update"}>
 					update joke
 					</Link>
 				</button>
