@@ -57,7 +57,3 @@ function mapStateToProps(state) {
 
 export default connect(mapStateToProps, {fetchPost, deletePost})(PostsShow);
 
-
-//<Link to={"/posts/" + this.props.params.id + "/update"}>
-//	update joke
-//</Link>

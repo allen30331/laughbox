@@ -41,7 +41,7 @@ class PostsUpdate extends Component {
 
 				<div className="form-group">
 					<label>Content</label>
-					<textarea className="form-control" {...content} value={post.content} required />
+					<textarea className="form-control"  value={post.content} {...content} required />
 				</div>
 
 				<button type="submit" className="btn btn-primary">Submit</button>
