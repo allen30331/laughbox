@@ -9,12 +9,10 @@ class PostsUpdate extends Component {
 	}
 
 	componentWillMount() {
-		//this.props.fetchPost(this.props.params.id);
-		console.log(this.props.params.id, 'fdfgdfgdgdfgdfgdfgdfg');
+		this.props.fetchPost(this.props.params.id);
 	}
 
 	onSubmit(props) {
-		//console.log(this.props.fields.categories, 'hello');
 		this.props.updatePost(this.props.params.id, props)
 			.then(() => {
 				this.context.router.push('/');
@@ -23,6 +21,9 @@ class PostsUpdate extends Component {
 
 
 	render() {
+
+		const {post} = this.props;
+
 		const {fields: {title, categories, content}, handleSubmit} = this.props;
 
 		return (
@@ -30,17 +31,17 @@ class PostsUpdate extends Component {
 				<h3>Tell a joke</h3>
 				<div className="form-group">
 					<label>Title</label>
-					<input type="text" className="form-control" value={this.props.params.title} {...title} required />
+					<input type="text" className="form-control" value={post.title} {...title} required />
 				</div>
 
 				<div className="form-group">
 					<label>Categories</label>
-					<input type="text" className="form-control"  {...categories} required />
+					<input type="text" className="form-control"  value={post.categories} {...categories} required />
 				</div>
 
 				<div className="form-group">
 					<label>Content</label>
-					<textarea className="form-control" {...content}  required />
+					<textarea className="form-control" {...content} value={post.content} required />
 				</div>
 
 				<button type="submit" className="btn btn-primary">Submit</button>
@@ -50,8 +51,11 @@ class PostsUpdate extends Component {
 	}
 }
 
+function mapStateToProps(state) {
+	return {post: state.posts.post};
+}
 
 export default reduxForm({
 	form: 'PostUpdate',
 	fields: ['title', 'categories', 'content']	
-}, null, {updatePost})(PostsUpdate);
+}, mapStateToProps, {updatePost, fetchPost})(PostsUpdate);

@@ -11,6 +11,7 @@ class PostsShow extends Component {
 
 	componentWillMount() {
 		this.props.fetchPost(this.props.params.id);
+		
 	}
 
 
