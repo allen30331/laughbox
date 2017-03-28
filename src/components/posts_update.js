@@ -2,6 +2,7 @@ import React, {Component, PropTypes} from 'react';
 import {reduxForm} from 'redux-form';
 import {updatePost, fetchPost} from '../actions/index';
 import {Link} from 'react-router';
+//import React from 'react';
 
 class PostsUpdate extends Component {
 	static contextTypes = {
@@ -10,7 +11,13 @@ class PostsUpdate extends Component {
 
 	componentWillMount() {
 		this.props.fetchPost(this.props.params.id);
+		console.log('this is the update page');
 	}
+
+	componentDidMount() {
+		console.log('component mounted');
+	}
+	
 
 	onSubmit(props) {
 		this.props.updatePost(this.props.params.id, props)
@@ -24,7 +31,12 @@ class PostsUpdate extends Component {
 
 		const {post} = this.props;
 
+
 		const {fields: {title, categories, content}, handleSubmit} = this.props;
+
+		if (!post) {
+			return <div>loading</div>
+		}
 
 		return (
 			<form onSubmit={handleSubmit(this.onSubmit.bind(this))}>
@@ -59,3 +71,7 @@ export default reduxForm({
 	form: 'PostUpdate',
 	fields: ['title', 'categories', 'content']	
 }, mapStateToProps, {updatePost, fetchPost})(PostsUpdate);
+
+// export default function PostsUpdate() {
+// 	return <div>Update Page</div>;
+// }

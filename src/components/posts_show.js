@@ -3,6 +3,7 @@ import {connect} from 'react-redux';
 import {fetchPost, deletePost} from '../actions/index';
 import {Link} from 'react-router';
 
+
 class PostsShow extends Component {
 	static contextTypes = {
 		router: PropTypes.object
