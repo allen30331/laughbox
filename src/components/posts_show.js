@@ -2,7 +2,7 @@ import React, {Component, PropTypes} from 'react';
 import {connect} from 'react-redux';
 import {fetchPost, deletePost} from '../actions/index';
 import {Link} from 'react-router';
-
+import css from '../../public/post-show.css';
 
 class PostsShow extends Component {
 	static contextTypes = {
@@ -37,19 +37,21 @@ class PostsShow extends Component {
 		}
 		
 		return (
-			<div>
-				<Link to="/">back to jokes</Link>
-				<h3>{post.title}</h3>
-				<h6>Categories: {post.categories}</h6>
-				<p>{post.content}</p>
-				<button 
-					className="btn btn-danger"
-					onClick={this.onDeleteClick.bind(this)}>
-					delete joke
-				</button>
-				<Link className="update-button" to={"/posts/" + this.props.params.id + "/update"}>
-					update joke
-				</Link>
+			<div className="post-container">
+				<div>
+					<Link to="/">back to jokes</Link>
+					<h3>{post.title}</h3>
+					<h6>Categories: {post.categories}</h6>
+					<p>{post.content}</p>
+					<button 
+						className="btn btn-danger"
+						onClick={this.onDeleteClick.bind(this)}>
+						delete joke
+					</button>
+					<Link className="update-button" to={"/posts/" + this.props.params.id + "/update"}>
+						edit
+					</Link>
+				</div>
 			</div>
 		);
 	}
