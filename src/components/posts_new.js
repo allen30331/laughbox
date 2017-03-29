@@ -20,6 +20,7 @@ class PostsNew extends Component {
 		const {fields: {title, categories, content}, handleSubmit} = this.props;
 
 		return (
+			<div>
 			<form onSubmit={handleSubmit(this.onSubmit.bind(this))}>
 				<h3>Tell a joke</h3>
 				<div className="form-group">
@@ -40,6 +41,7 @@ class PostsNew extends Component {
 				<button type="submit" className="btn btn-primary">Submit</button>
 				<Link to="/" className="btn btn-danger">Cancel</Link>
 			</form>
+			</div>
 		);
 	}
 }
