@@ -14,15 +14,23 @@
    	height: 80px;
 }
 
+.footer-container {
+	background-color: #272727;
+    padding-top: 1px;
+    margin-top: -1px;
+   	height: 80px;
+}
 
-header {
+
+header, footer {
 	background-color: #ED4984;
 	margin-top: 21px;
-}
-
-header h3 {
 	color: white;
 }
+
+/*header h3 {
+	color: white;
+}*/
 
 .summary-container {
 	background: url('./friends.jpg') no-repeat center center fixed;

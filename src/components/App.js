@@ -19,14 +19,14 @@ class App extends Component {
 		  <div>
 		  	{this.props.children}
 		  </div>
-		  <div className="header-container">
-	  	      	<header>
+		  <div className="footer-container">
+	  	      	<footer>
 	  		      	<div className="row">
 	  		      		<div className="col-md-12">
-	  		      			<h3>laugh box</h3>
+	  		      			<p>built by Allen Smith</p>
 	  		      		</div>
 	  		      	</div>
-	  		  	</header>
+	  		  	</footer>
 		    </div>
 	    </div>
     );
