@@ -1,3 +1,7 @@
+* {
+	font-family: Poppins, sans-serif;
+}
+
 .header-container {
     background-color: black;
     padding-top: 1px;
@@ -20,5 +24,12 @@ header h3 {
 	height: 500px;
 	background-size: 100%;
 	background-repeat: no-repeat;
-	color: white;
+	color: black;
+	text-align: center;
+	font-size: 40px;
+	font-weight: bold;
+}
+
+.share-laughs {
+	padding-top: 66px;
 }
