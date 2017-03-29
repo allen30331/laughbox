@@ -2,6 +2,10 @@
 	font-family: Poppins, sans-serif;
 }
 
+.row {
+	margin: 0px;
+}
+
 .header-container {
     background-color: black;
     padding-top: 1px;
@@ -20,10 +24,12 @@ header h3 {
 }
 
 .summary-container {
-	background-image: url('friends.jpg');
+	background: url('./friends.jpg') no-repeat center center fixed;
+	-webkit-background-size: cover; 
+	-moz-background-size: cover; 
+	-o-background-size: cover; 
+	background-size: cover;
 	height: 500px;
-	background-size: 100%;
-	background-repeat: no-repeat;
 	color: black;
 	text-align: center;
 	font-size: 40px;
@@ -33,3 +39,4 @@ header h3 {
 .share-laughs {
 	padding-top: 66px;
 }
+

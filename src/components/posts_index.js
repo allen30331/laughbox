@@ -38,15 +38,19 @@ class PostsIndex extends Component {
 		  				</div>
 		  			</div>
 		  		</div>
-					<h3>Jokes</h3>
-					<div className="">
-						<Link to="/posts/new" className="btn btn-primary">
-							add a joke
-						</Link>
-					</div>
-					<ul className="list-group">
-						{this.renderPosts()}	
-					</ul>
+		  		<div className="joke-container">
+					<div className="row">
+						<h3>Jokes</h3>
+						<div className="">
+							<Link to="/posts/new" className="btn btn-primary">
+								add a joke
+							</Link>
+						</div>
+						<ul className="list-group">
+							{this.renderPosts()}	
+						</ul>
+					</div>	
+				</div>
 			</div>
 		);
 	}

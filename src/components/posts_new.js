@@ -20,7 +20,7 @@ class PostsNew extends Component {
 		const {fields: {title, categories, content}, handleSubmit} = this.props;
 
 		return (
-			<div>
+			<div className="form-container">
 			<form onSubmit={handleSubmit(this.onSubmit.bind(this))}>
 				<h3>Tell a joke</h3>
 				<div className="form-group">
