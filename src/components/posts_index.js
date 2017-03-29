@@ -39,9 +39,13 @@ class PostsIndex extends Component {
 		  		</div>
 
 		  		<div className="summary-container">
-		  		
-		  			<div className="row">
 
+		  			<div className="row">
+		  				<div className="col-md-6">
+		  					<p>Share</p>
+		  					<p>Your</p>
+		  					<p>Laughs</p>
+		  				</div>
 		  			</div>
 		  		</div>
 				<div className="text-xs-right">

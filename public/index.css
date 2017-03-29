@@ -18,5 +18,7 @@ header h3 {
 .summary-container {
 	background-image: url('friends.jpg');
 	height: 500px;
-	
+	background-size: 100%;
+	background-repeat: no-repeat;
+	color: white;
 }
