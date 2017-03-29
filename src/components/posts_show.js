@@ -38,7 +38,7 @@ class PostsShow extends Component {
 		
 		return (
 			<div className="post-container">
-				<div>
+				<div className="post-content">
 					<Link to="/">back to jokes</Link>
 					<h3>{post.title}</h3>
 					<h6>Categories: {post.categories}</h6>
