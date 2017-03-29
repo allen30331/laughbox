@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import css from '../../public/home.css';
-
+import gitHubImg from '../../public/github.png';
 
 class App extends Component {
   render() {
@@ -24,6 +24,7 @@ class App extends Component {
 	  		      	<div className="row">
 	  		      		<div className="col-md-12">
 	  		      			<p>built by Allen Smith</p>
+	  		      			<a href="https://github.com/allen30331"><img className="github" src={gitHubImg} height="25" width="25"/></a>
 	  		      		</div>
 	  		      	</div>
 	  		  	</footer>

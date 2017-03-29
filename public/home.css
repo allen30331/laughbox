@@ -67,3 +67,11 @@ header, footer {
 	background-color: #272727;
 	border-color: rgba(2, 117, 216, 0);
 }
+
+img.github {
+    border-radius: 17px;
+}
+
+footer p {
+    display: inline-block;
+}
