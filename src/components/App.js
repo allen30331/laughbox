@@ -10,7 +10,7 @@ class App extends Component {
 	  	      	<header>
 	  		      	<div className="row">
 	  		      		<div className="col-md-12">
-	  		      			<h3>laugh box</h3>
+	  		      			<h3 className="laughbox">laugh box</h3>
 	  		      		</div>
 	  		      	</div>
 	  		  	</header>
@@ -23,7 +23,7 @@ class App extends Component {
 	  	      	<footer>
 	  		      	<div className="row">
 	  		      		<div className="col-md-12">
-	  		      			<p>built by Allen Smith</p>
+	  		      			<p className="built-by">built by Allen Smith</p>
 	  		      			<a href="https://github.com/allen30331"><img className="github" src={gitHubImg} height="25" width="25"/></a>
 	  		      		</div>
 	  		      	</div>

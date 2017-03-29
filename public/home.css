@@ -28,6 +28,9 @@ header, footer {
 	color: white;
 }
 
+.laughbox {
+	margin-top: 10px;
+}
 
 .summary-container {
 	background: url('./friends.jpg') no-repeat center center fixed;
@@ -75,4 +78,8 @@ img.github {
 footer p {
     display: inline-block;
     margin-right: 10px;
+}
+
+p.built-by {
+    margin-top: 15px;
 }
