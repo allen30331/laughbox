@@ -36,7 +36,7 @@ class PostsNew extends Component {
 
 				<div className="form-group">
 					<label>Content</label>
-					<textarea className="form-control" {...content} required />
+					<textarea className="form-control" rows="5" {...content} required />
 				</div>
 
 				<button type="submit" className="btn btn-primary">Submit</button>
