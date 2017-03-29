@@ -1,6 +1,6 @@
-* {
+/** {
 	font-family: 'Poppins', sans-serif;
-}
+}*/
 
 .row {
 	margin-left: 50px;
@@ -28,9 +28,6 @@ header, footer {
 	color: white;
 }
 
-/*header h3 {
-	color: white;
-}*/
 
 .summary-container {
 	background: url('./friends.jpg') no-repeat center center fixed;

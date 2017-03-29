@@ -41,7 +41,7 @@ class PostsIndex extends Component {
 		  		<div className="joke-container">
 					<div className="row">
 						<h3>Jokes</h3>
-						<div className="">
+						<div className="add-joke-btn-container">
 							<Link to="/posts/new" className="btn btn-primary">
 								add a joke
 							</Link>
