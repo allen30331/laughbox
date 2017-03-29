@@ -2,7 +2,7 @@ import React, {Component, PropTypes} from 'react';
 import {reduxForm} from 'redux-form';
 import {updatePost, fetchPost} from '../actions/index';
 import {Link} from 'react-router';
-//import React from 'react';
+import css from '../../public/post-new.css';
 
 class PostsUpdate extends Component {
 	static contextTypes = {
@@ -39,26 +39,28 @@ class PostsUpdate extends Component {
 		}
 
 		return (
-			<form onSubmit={handleSubmit(this.onSubmit.bind(this))}>
-				<h3>Tell a joke</h3>
-				<div className="form-group">
-					<label>Title</label>
-					<input type="text" className="form-control" value={post.title} {...title} required />
-				</div>
+			<div className="form-container">
+				<form onSubmit={handleSubmit(this.onSubmit.bind(this))}>
+					<h3>Make us laugh</h3>
+					<div className="form-group">
+						<label>Title</label>
+						<input type="text" className="form-control" value={post.title} {...title} required />
+					</div>
 
-				<div className="form-group">
-					<label>Categories</label>
-					<input type="text" className="form-control"  value={post.categories} {...categories} required />
-				</div>
+					<div className="form-group">
+						<label>Categories</label>
+						<input type="text" className="form-control"  value={post.categories} {...categories} required />
+					</div>
 
-				<div className="form-group">
-					<label>Content</label>
-					<textarea className="form-control"  value={post.content} {...content} required />
-				</div>
+					<div className="form-group">
+						<label>Content</label>
+						<textarea className="form-control" rows="5" value={post.content} {...content} required />
+					</div>
 
-				<button type="submit" className="btn btn-primary">Submit</button>
-				<Link to="/" className="btn btn-danger">Cancel</Link>
-			</form>
+					<button type="submit" className="btn btn-primary">Submit</button>
+					<Link to="/" className="btn btn-danger">Cancel</Link>
+				</form>
+			</div>
 		);
 	}
 }

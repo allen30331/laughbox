@@ -23,7 +23,7 @@ class PostsNew extends Component {
 		return (
 			<div className="form-container">
 			<form onSubmit={handleSubmit(this.onSubmit.bind(this))}>
-				<h3>Tell a joke</h3>
+				<h3>Make us laugh</h3>
 				<div className="form-group">
 					<label>Title</label>
 					<input type="text" className="form-control" {...title} required />
