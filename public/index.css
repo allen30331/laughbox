@@ -1,9 +1,16 @@
 .header-container {
     background-color: black;
+    padding-top: 1px;
+    margin-top: -1px;
+   	height: 80px;
 }
 
 
 header {
 	background-color: #ED4984;
+	margin-top: 21px;
 }
 
+header h3 {
+	color: white;
+}
