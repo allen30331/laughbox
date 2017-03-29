@@ -1,0 +1,21 @@
+form {
+	width: 50%;
+	margin-left: 25%;
+}
+
+.form-container {
+    margin-bottom: 152px;
+}
+
+
+.btn-primary {
+    margin-left: 5px;
+}
+
+
+.btn-danger {
+    color: #fff;
+    background-color: #272727;
+    border-color: #ddd;
+    margin-left: 5px;
+}

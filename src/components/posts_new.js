@@ -2,6 +2,7 @@ import React, {Component, PropTypes} from 'react';
 import {reduxForm} from 'redux-form';
 import {createPost} from '../actions/index';
 import {Link} from 'react-router';
+import css from '../../public/post-new.css'
 
 class PostsNew extends Component {
 	static contextTypes = {

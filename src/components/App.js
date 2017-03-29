@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import css from '../../public/index.css';
+import css from '../../public/home.css';
 
 
 class App extends Component {
@@ -19,7 +19,7 @@ class App extends Component {
 		  <div>
 		  	{this.props.children}
 		  </div>
-		  <div className="footer-container">
+		  	<div className="footer-container">
 	  	      	<footer>
 	  		      	<div className="row">
 	  		      		<div className="col-md-12">
@@ -28,6 +28,7 @@ class App extends Component {
 	  		      	</div>
 	  		  	</footer>
 		    </div>
+	  	
 	    </div>
     );
   }
