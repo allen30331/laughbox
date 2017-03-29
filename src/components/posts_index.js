@@ -28,15 +28,7 @@ class PostsIndex extends Component {
 	render() {
 		return (
 			<div>
-				<div className="header-container">
-			      	<header>
-				      	<div className="row">
-				      		<div className="col-md-12">
-				      			<h3>laugh box</h3>
-				      		</div>
-				      	</div>
-				  	</header>
-		  		</div>
+				
 
 		  		<div className="summary-container">
 
@@ -46,12 +38,12 @@ class PostsIndex extends Component {
 		  				</div>
 		  			</div>
 		  		</div>
-				<div className="text-xs-right">
-					<Link to="/posts/new" className="btn btn-primary">
-						add a joke
-					</Link>
-				</div>
 					<h3>Jokes</h3>
+					<div className="">
+						<Link to="/posts/new" className="btn btn-primary">
+							add a joke
+						</Link>
+					</div>
 					<ul className="list-group">
 						{this.renderPosts()}	
 					</ul>
