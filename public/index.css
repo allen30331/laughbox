@@ -52,6 +52,18 @@ header, footer {
 	margin-bottom: 30px;
 }
 
+.joke-container ul a {
+	color: #676767;
+}
+
+
 .add-joke-btn-container {
     margin-bottom: 10px;
+}
+
+
+.btn-primary {
+	color: white;
+	background-color: #272727;
+	border-color: rgba(2, 117, 216, 0);
 }
