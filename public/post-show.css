@@ -26,3 +26,11 @@ a.update-button {
     border-color: #ddd;
     margin-left: 5px;
 }
+
+
+@media only screen and (max-width: 450px) {
+    .post-container {
+	    width: 75%;
+	    margin-left: 12.5%;
+	}
+}
