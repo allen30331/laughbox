@@ -72,6 +72,3 @@ export default reduxForm({
 	fields: ['title', 'categories', 'content']	
 }, mapStateToProps, {updatePost, fetchPost})(PostsUpdate);
 
-// export default function PostsUpdate() {
-// 	return <div>Update Page</div>;
-// }
