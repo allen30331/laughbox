@@ -49,6 +49,9 @@ header, footer {
 	padding-top: 40px;
 }
 
+span.slogan {
+    background-color: orange;
+}
 
 .joke-container {
 	margin-top: 30px;
