@@ -30,15 +30,21 @@
 <h2>Launch</h2>
 <ul>
 	<li>npm run dev</li>
-	<li>then open localhost:3000</li>
+	<li>then open localhost:3000 in a web browser.</li>
 </ul>
 
 
 <h2>About</h2>
 <p>Some say that laughter is the best medicine. So why not make it easier to find something funny? Laugh Box solves this problem. Laugh Box provides a community driven platform that allows users to create jokes that can be seen by others. In addition, users can also edit or delete current jokes.</p>
 
-
-
+<h2>Wire Frames</h2>
+<ul>
+	<li>Initial wire frame for app structure</li>
+	<li>Initial wire frame for UX</li>
+</ul>
+<p><img src="public/app1.jpg"></p>
+<p><img src="public/wireframe1.png"></p>
+<p><img src="public/wireframe2.png"></p>
 
 <h2>Technology</h2>
 <h3>Front End</h3>
