@@ -32,6 +32,17 @@ header, footer {
 	margin-top: 10px;
 }
 
+.laughbox a {
+    text-decoration: none;
+    color: white;
+}
+
+.laughbox a:hover {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+
 .summary-container {
 	background: url('./friends.jpg') no-repeat center center fixed;
 	-webkit-background-size: cover; 

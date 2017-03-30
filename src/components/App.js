@@ -10,7 +10,7 @@ class App extends Component {
 	  	      	<header>
 	  		      	<div className="row">
 	  		      		<div className="col-md-12">
-	  		      			<h3 className="laughbox">laugh box</h3>
+	  		      			<h3 className="laughbox"><a href="/">laugh box</a></h3>
 	  		      		</div>
 	  		      	</div>
 	  		  	</header>
