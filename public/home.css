@@ -49,8 +49,17 @@ header, footer {
 	padding-top: 40px;
 }
 
+p.p-slogan {
+    margin-bottom: 178px;
+    text-align: left;
+}
+
 span.slogan {
     background-color: orange;
+}
+
+p.p-sub-slogan {
+    text-align: right;
 }
 
 .joke-container {
@@ -85,4 +94,15 @@ footer p {
 
 p.built-by {
     margin-top: 15px;
+}
+
+
+
+
+@media only screen and (max-width: 460px) {
+    p.p-sub-slogan, p.p-slogan {
+		text-align: center;
+		font-size: 30px;
+	}
+
 }

@@ -24,7 +24,7 @@ class App extends Component {
 	  		      	<div className="row">
 	  		      		<div className="col-md-12">
 	  		      			<p className="built-by">built by Allen Smith</p>
-	  		      			<a href="https://github.com/allen30331"><img className="github" src={gitHubImg} height="25" width="25"/></a>
+	  		      			<a href="https://github.com/allen30331" target="_blank"><img className="github" src={gitHubImg} height="25" width="25"/></a>
 	  		      		</div>
 	  		      	</div>
 	  		  	</footer>
