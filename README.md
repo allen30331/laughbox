@@ -51,27 +51,26 @@
 <ul>
 	<li>HTML5</li>
 	<li>CSS3</li>
-	<li>Javascript</li>
-	<li>jQuery</li>
+	<li>React</li>
+	<li>React Router</li>
+	<li>Redux</li>
+	<li>Axios</li>
 </ul>
 
 <h3>Back End</h3>
 <ul>
 	<li>Node.js + Express.js (web server)</li>
 	<li>MongoDB (database)</li>
-	<li>JavascMocha + Chai (testing)</li>
+	<li>Mocha + Chai (testing)</li>
 	<li>Continuous integration and deployment with Travis CI</li>
-</ul>
-
-
-<h2>Responsive</h2>
-<ul>
-	<li>The app is fully responsive and quickly adapts to all mobile, tablet, and desktop viewports.</li>
 </ul>
 
 
 
 <h2>Image Attributions</h2>
 <ul>
-	<li><a href="https://rydely.com/lyft-driver/"></a>https://rydely.com/lyft-driver/</li>
+	<li><a href="https://www.pexels.com/photo/girls-friends-girlfriends-outdoors-25770/">Pexels</a></li>
+	<li><a href="https://www.behance.net/gallery/10350581/Creative-Box-Logo-Design">Behance</a></li>
 </ul>
+
+
