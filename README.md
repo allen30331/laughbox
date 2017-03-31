@@ -1,6 +1,6 @@
 <h1>Laugh Box</h1>
 
-<a href="https://laughbox.herokuapp.com/">Laugh Box</a> is a an app that allows users to create and share nuggets of laughter.  
+<a href="https://laughbox.herokuapp.com/" target="_blank">Laugh Box</a> is a an app that allows users to create and share nuggets of laughter.  
 <img src="public/screen-shots.png">
 
 
