@@ -9,6 +9,7 @@
 	<li>git clone https://github.com/allen30331/laughbox.git</li>
 	<li>cd laughbox</li>
 	<li>npm install</li>
+	<li>npm install -g react-scripts<li>
 </ul>
 
 
