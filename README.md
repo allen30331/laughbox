@@ -31,7 +31,7 @@
 <h2>Launch</h2>
 <ul>
 	<li>npm run dev</li>
-	<li>then open localhost:3000 in a web browser.</li>
+	<li>then open localhost:3000 in a web browser</li>
 </ul>
 
 
