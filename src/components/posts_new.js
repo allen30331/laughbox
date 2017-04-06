@@ -4,6 +4,8 @@ import {createPost} from '../actions/index';
 import {Link} from 'react-router';
 import css from '../../public/post-new.css'
 
+
+//Returns form to create post
 class PostsNew extends Component {
 	static contextTypes = {
 		router: PropTypes.object

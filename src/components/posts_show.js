@@ -4,6 +4,8 @@ import {fetchPost, deletePost} from '../actions/index';
 import {Link} from 'react-router';
 import css from '../../public/post-show.css';
 
+
+//Returns post so it can be read.
 class PostsShow extends Component {
 	static contextTypes = {
 		router: PropTypes.object

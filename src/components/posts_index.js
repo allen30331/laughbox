@@ -3,7 +3,7 @@ import {connect} from 'react-redux';
 import {fetchPosts} from '../actions/index';
 import {Link} from 'react-router';
 
-
+//Returns list of posts
 class PostsIndex extends Component {
 	
 	componentWillMount() {
