@@ -13,6 +13,8 @@ const createStoreWithMiddleware = applyMiddleware(
 	promise
 )(createStore);
 
+//This renders the component into the 'root' element div inside
+//index.html
 ReactDOM.render(
   <Provider store={createStoreWithMiddleware(reducers)}>
     <Router history={browserHistory} routes={routes} />
