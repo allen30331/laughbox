@@ -50,12 +50,66 @@
 <h2>Technology</h2>
 <h3>Front End</h3>
 <ul>
-	<li>HTML5</li>
-	<li>CSS3</li>
-	<li>React</li>
-	<li>React Router</li>
-	<li>Redux</li>
-	<li>Axios</li>
+	<li>
+
+	## Frontend
+
+	HTML5
+CSS3
+React
+React Router
+Redux
+Axios</li>
+	<li>
+
+	## Frontend
+
+	HTML5
+CSS3
+React
+React Router
+Redux
+Axios</li>
+	<li>
+
+	## Frontend
+
+	HTML5
+CSS3
+React
+React Router
+Redux
+Axios</li>
+	<li>
+
+	## Frontend
+
+	HTML5
+CSS3
+React
+React Router
+Redux
+Axios</li>
+	<li>
+
+	## Frontend
+
+	HTML5
+CSS3
+React
+React Router
+Redux
+Axios</li>
+	<li>
+
+	## Frontend
+
+	HTML5
+CSS3
+React
+React Router
+Redux
+Axios</li>
 </ul>
 
 <h3>Back End</h3>
@@ -107,3 +161,20 @@
 ![wireframe](./public/images/wireframe2.png)
 
 # Technology
+
+## Frontend
+
+* HTML5
+* CSS3
+* React
+* React Router
+* Redux
+* Axios
+
+
+## Backend
+
+* Node.js
+* MongoDB
+* Mocha
+* Continuous integration and deployment with Travis CI
