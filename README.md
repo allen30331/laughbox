@@ -178,3 +178,11 @@ Axios</li>
 * MongoDB
 * Mocha
 * Continuous integration and deployment with Travis CI
+
+# Attributions 
+
+## Images
+
+* [Pexels](https://www.pexels.com/photo/girls-friends-girlfriends-outdoors-25770/)
+
+* [Behance](https://www.behance.net/gallery/10350581/Creative-Box-Logo-Design)
