@@ -180,9 +180,9 @@ Axios</li>
 * Continuous integration and deployment with Travis CI
 
 
-#Screenshots
+# Screenshots
 
-[screenshot](./public/images/screen-shots.png)
+![screenshot](./public/images/screen-shots.png)
 
 
 # Attributions 
