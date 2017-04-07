@@ -1,4 +1,4 @@
-<h1>Laugh Box</h1>
+<!-- <h1>Laugh Box</h1>
 
 <a href="https://laughbox.herokuapp.com/" target="_blank">Laugh Box</a> is a an app that allows users to create and share nuggets of laughter.  
 <img src="public/screen-shots.png">
@@ -72,6 +72,11 @@
 <ul>
 	<li><a href="https://www.pexels.com/photo/girls-friends-girlfriends-outdoors-25770/">Pexels</a></li>
 	<li><a href="https://www.behance.net/gallery/10350581/Creative-Box-Logo-Design">Behance</a></li>
-</ul>
+</ul> -->
 
 
+# Laughbox
+
+# About 
+
+> Some say that laughter is the best medicine. So why not make it easier to find something funny? Laugh Box solves this problem. Laugh Box provides a community driven platform that allows users to create jokes that can be seen by others. In addition, users can also edit or delete current jokes.
