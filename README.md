@@ -100,3 +100,8 @@
 # App Architecture
 
 ![app-architecture](./public/images/app-arch.jpeg)
+
+# Wireframes
+
+![wireframe](./public/images/wireframe1.png)
+![wireframe](./public/images/wireframe2.png)
