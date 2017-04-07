@@ -96,3 +96,7 @@
 ## Testing 
 
 * npm run test
+
+# App Architecture
+
+![app-architecture](./public/images/app-arch.jpeg)
