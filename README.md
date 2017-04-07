@@ -179,6 +179,12 @@ Axios</li>
 * Mocha
 * Continuous integration and deployment with Travis CI
 
+
+#Screenshots
+
+[screenshot](./public/images/screen-shots.png)
+
+
 # Attributions 
 
 ## Images
