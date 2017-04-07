@@ -2,7 +2,7 @@ import React, {Component, PropTypes} from 'react';
 import {reduxForm} from 'redux-form';
 import {updatePost, fetchPost} from '../actions/index';
 import {Link} from 'react-router';
-import css from '../../public/post-new.css';
+import css from '../../public/css/post-new.css';
 
 
 //Returns form to update post

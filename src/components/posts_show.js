@@ -2,7 +2,7 @@ import React, {Component, PropTypes} from 'react';
 import {connect} from 'react-redux';
 import {fetchPost, deletePost} from '../actions/index';
 import {Link} from 'react-router';
-import css from '../../public/post-show.css';
+import css from '../../public/css/post-show.css';
 
 
 //Returns post so it can be read.

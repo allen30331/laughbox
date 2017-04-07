@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import css from '../../public/home.css';
+import css from '../../public/css/home.css';
 import gitHubImg from '../../public/images/github.png';
 
 //Root component that will be displayed constantly.
