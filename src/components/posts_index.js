@@ -34,8 +34,7 @@ class PostsIndex extends Component {
 
 		  			<div className="row">
 		  				<div className="col-md-12 share-laughs">
-		  					<p className="p-slogan"><span className="slogan">tell jokes</span></p>
-		  					<p className="p-sub-slogan"><span className="slogan">keep laughing</span></p>
+		  					<p className="p-slogan"><span className="slogan">find jokes <br /> create jokes <br /> laugh :) </span></p>
 		  				</div>
 		  			</div>
 		  		</div>
