@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import css from '../../public/home.css';
-import gitHubImg from '../../public/github.png';
+import gitHubImg from '../../public/images/github.png';
 
 //Root component that will be displayed constantly.
 //This.props.children allows other components to extend 
